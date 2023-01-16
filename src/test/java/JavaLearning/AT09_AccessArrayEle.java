@@ -15,8 +15,5 @@ public class AT09_AccessArrayEle {
         System.out.println(age[3]);
         System.out.println(age[4]);
         System.out.println(age[5]);
-
-
-
     }
 }
