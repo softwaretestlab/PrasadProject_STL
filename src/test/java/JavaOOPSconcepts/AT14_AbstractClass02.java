@@ -2,7 +2,7 @@ package JavaOOPSconcepts;
 
 import org.junit.Test;
 
-public class AT14_AbstractClass02 extends AT13_AbstractClass01 {
+public class AT14_AbstractClass02 extends  AT13_AbstractClass01{
     /*
 Abstract class: is a restricted class that cannot be used to create
 objects (to access it, it must be inherited from another class).

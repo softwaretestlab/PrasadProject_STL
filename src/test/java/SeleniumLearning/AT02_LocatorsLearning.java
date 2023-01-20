@@ -21,5 +21,13 @@ public class AT02_LocatorsLearning {
         driver.get("https://www.thegoodguys.com.au/UserRegistrationForm?myAcctMain=1&new=Y&catalogId=30000&langId=-1&storeId=900");
         //implicit wait
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        // enter data in firstname field
+        //locator - name
+        driver.findElement(By.name("firstName")).sendKeys("Prasad");
+        // enter data in lastname field
+        //locator - id
+        driver.findElement(By.id("regAddForm_lastName")).sendKeys("Vamsi");
+        // by link text
+        driver.findElement(By.partialLinkText("Cata")).click();
     }
 }

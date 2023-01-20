@@ -3,7 +3,6 @@ package JavaOOPSconcepts;
 import org.junit.Test;
 
 public abstract class AT13_AbstractClass01 {
-
     //we  know the logic for this below method
     @Test
     public void SumOfNum(){
@@ -19,6 +18,5 @@ public abstract class AT13_AbstractClass01 {
         System.out.println("This is SubOfNum Second Method value : " + (i-j));
     }
     //we don't know the logic for this below method
-
     public abstract void divOfNum();
 }

@@ -10,18 +10,16 @@ public class AT08_Polymorphism_MethodOverLoading01 {
         int j=20;
         System.out.println("This is SumOfNum First Method value : " + (i+j));
     }
-
     @Test
     public void SumOfNum(int i){
-        int j =20;
-        int m = i+j;
-        System.out.println("This is SumOfNum Second Method value : " + m);
+        int j=20;
+        int M =i+j;
+        System.out.println("This is SumOfNum Second Method value : " + M);
     }
-
     @Test
     public void SumOfNum(int i, int j){
         int M =i+j;
         System.out.println("This is SumOfNum Thrid Method value : " + M);
-
     }
+
 }

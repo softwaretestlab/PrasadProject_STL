@@ -1,6 +1,5 @@
 package LoopsNConditionalStatments;
 
-
 import org.junit.Test;
 
 public class AT04_If_Learning {
@@ -11,6 +10,5 @@ public class AT04_If_Learning {
         if(browser.equalsIgnoreCase("CHROME")){
             System.out.println("Test case will be executed on chrome");
         }
-
     }
 }

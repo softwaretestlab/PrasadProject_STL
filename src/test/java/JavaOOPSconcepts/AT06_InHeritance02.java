@@ -2,8 +2,8 @@ package JavaOOPSconcepts;
 
 import org.junit.Test;
 
-public class AT06_InHeritance02 extends AT05_InHeritance01 {
-    //using extends keyword we are inherting all the parent methods
+//using extends keyword we are inherting all the parent methods
+public class AT06_InHeritance02 extends AT05_InHeritance01{
     @Test
     public void inhMethod04(){
         System.out.println("This is inhMethod04-child");

@@ -3,7 +3,6 @@ package JavaOOPSconcepts;
 import org.junit.Test;
 
 public class AT05_InHeritance01 {
-
     //this is a method
     @Test
     public void inhMethod01(){
